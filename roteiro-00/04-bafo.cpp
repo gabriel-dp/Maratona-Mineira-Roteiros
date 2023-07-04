@@ -7,9 +7,10 @@ int main() {
 
     do {
         cin >> rounds;
+        if (rounds == 0) break;
 
         aldo = 0, beto = 0;
-        for (int i = 0; i < rounds; i++) {
+        while (rounds--) {
             cin >> a;
             aldo += a;
             cin >> b;
@@ -23,7 +24,7 @@ int main() {
         else
             cout << "Beto";
         cout << "\n\n";
-    } while (rounds != 0);
+    } while (true);
 
     return 0;
 }
