@@ -9,3 +9,5 @@ All solved script exercises from "Maratona Mineira".
 [`Roteiro 00`](./roteiro-00/)
 
 [`Roteiro 01`](./roteiro-01/)
+
+[`Roteiro 02`](./roteiro-02/)
