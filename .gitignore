@@ -1,2 +1,16 @@
-.vscode
-**/output
+# executables no-extension (Linux)
+*
+!/**/
+!*.*
+!Makefile
+!LICENSE
+
+# executables (Windows)
+*.exe
+
+# compilation objects
+*.o
+
+# tests
+*.in
+*.out
